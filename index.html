@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet"/>
-    <title>Travelland</title>
-  </head>
-  <body>
-  	<div id="wrapper">
-	    <header>
-	    	<div id="page-banner">
-	    		<h1 class="title">Travelland</h1>
-          <p>Istražite svet</p>
-          <form id="pretraga-destinacija">
-            <input type="text" placeholder="Pretraži destinacije..." />
-          </form>
-	    	</div>
-	    </header>
-	    <div id="lista-destinacija">
-	    	<h2 class="title">Posetite neku od sledećih destinacija: </h2>
-	    	<ul>
-	    		<li>
-	    			<span class="naziv">Pariz, Francuska</span>
-	    			<span class="obrisi">obriši</span>
-	    		</li>
-	    		<li>
-	    			<span class="naziv">Rim, Italija</span>
-	    			<span class="obrisi">obriši</span>
-	    		</li>
-	    		<li>
-	    			<span class="naziv">Rio de Žaneiro, Brazil</span>
-	    			<span class="obrisi">obriši</span>
-	    		</li>
-	    		<li>
-	    			<span class="naziv">Santorini, Grčka</span>
-	    			<span class="obrisi">obriši</span>
-	    		</li>
-                <li>
-	    			<span class="naziv">Barselona, Španija</span>
-	    			<span class="obrisi">obriši</span>
-	    		</li>
-	    	</ul>
-	    </div>
-	    <form id="dodaj-destinaciju">
-	    	<input type="text" placeholder="Dodaj destinaciju..." />
-	    	<button>Dodaj</button>
-	    </form>
-    </div>
-    <script src="app.js"></script>
-  </body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet" />
+	<title>Travelland</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<div id="page-banner">
+				<h1 class="title">Travelland</h1>
+				<p>Istražite svet</p>
+				<form id="pretraga-destinacija">
+					<input type="text" placeholder="Pretraži destinacije..." />
+				</form>
+			</div>
+		</header>
+		<div id="lista-destinacija">
+			<h2 class="title">Posetite neku od sledećih destinacija: </h2>
+			<ul id="lista">
+				<li>
+					<span class="naziv">Pariz, Francuska</span>
+					<span class="obrisi">obriši</span>
+				</li>
+				<li>
+					<span class="naziv">Rim, Italija</span>
+					<span class="obrisi">obriši</span>
+				</li>
+				<li>
+					<span class="naziv">Rio de Žaneiro, Brazil</span>
+					<span class="obrisi">obriši</span>
+				</li>
+				<li>
+					<span class="naziv">Santorini, Grčka</span>
+					<span class="obrisi">obriši</span>
+				</li>
+				<li>
+					<span class="naziv">Barselona, Španija</span>
+					<span class="obrisi">obriši</span>
+				</li>
+			</ul>
+		</div>
+		<form id="dodaj-destinaciju">
+			<input type="text" placeholder="Dodaj destinaciju..." />
+			<button>Dodaj</button>
+		</form>
+	</div>
+	<script src="app.js"></script>
+</body>
+
 </html>
-   
